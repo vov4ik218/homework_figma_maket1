@@ -62,7 +62,12 @@ p, h2 {
 .menu__link:hover {
     color: #070709;
 }
-
+.banner {
+    font-size: 0;
+}
+.banner > img {
+    width: 100%;
+}
 .banner__title {
     font-size: 48px;
     font-weight: bold;
@@ -189,6 +194,7 @@ main h2,
 }
 
 .portfolio > img {
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
