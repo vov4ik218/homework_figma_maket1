@@ -61,6 +61,19 @@ h2 {
     transition: all 0.25s linear;
 }
 
+@media screen and (max-width: 576px) {
+    .menu__link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu__link {
+        font-size: 12px;
+    }
+}
+
+
 .menu__link:hover {
     color: #070709;
 }
@@ -210,7 +223,7 @@ main h2,
     display: block;
 }
 
-.wrapper__img > img {
+.wrapper__img>img {
     width: 100%;
     object-fit: contain;
     height: auto;
